@@ -12,7 +12,7 @@ A simple weather application that allows users to search for current weather inf
 
 ## Demo
 
-Check out the live demo [here](weather-app-eight-beta-90.vercel.app).
+Check out the live demo [here](https://weather-app-eight-beta-90.vercel.app/).
 
 
 ## Installation
