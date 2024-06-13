@@ -1,0 +1,90 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.weather-info {
+  text-align: center;
+  border: 2px #00ff08;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.location h1 {
+  font-size: 3rem;
+}
+
+.temp h1 {
+  font-size: 4rem;
+}
+
+.description h1 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.details {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.details .box {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  color: black
+}
+
+.details p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search input {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-button {
+  width: 40px; 
+  height: 50px; 
+  background: none; 
+  border: none; 
+  padding: 0; 
+  cursor: pointer; 
+}
+
+.search-button svg {
+  width: 100%;
+  height: 100%;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
