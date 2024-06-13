@@ -1,31 +1,26 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple weather application that allows users to search for current weather information by city. This app displays the temperature, weather description, humidity, visibility, and wind speed for the selected city.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Search for current weather by city name
+- Display temperature in Celsius
+- Show weather description
+- Display humidity, visibility, and wind speed
+- Responsive design
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out the live demo [here](weather-app-eight-beta-90.vercel.app).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these steps to set up the project locally:
 
-### `npm run build`
+1. **Clone the repository**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
+   ```bash
+   git clone https://github.com/eye97/weather-app.git
+   cd weather-app
